@@ -28,9 +28,9 @@ copy link below to your browser
 6. Download ccminer, config, verus bash
   ```cpp
   mkdir ~/ccminer
-  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/generic/ccminer
-  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/generic/config.json
-  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/generic/verus
+  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/ccminer
+  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/config.json
+  wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/verus
   cd ~/ccminer && chmod +x ccminer verus
   cp ./verus ../../usr/bin/verus
   ```
