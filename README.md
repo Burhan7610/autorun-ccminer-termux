@@ -16,7 +16,7 @@ copy link below to your browser
   pkg update && pkg upgrade -y
   pkg install libjansson wget nano -y
   ```
-6. Create boot directory & setting termux properties
+5. Create boot directory & setting termux properties
   ```cpp
   mkdir ~/.termux/boot
   nano ~/.termux/termux.properties
@@ -24,6 +24,7 @@ copy link below to your browser
   remove ```#``` on ``` allow-external-apps 'true' ```
   ctrl+x y
   [Enter]
+
 6. Download ccminer, config, verus bash
   ```cpp
   mkdir ~/ccminer
@@ -33,6 +34,7 @@ copy link below to your browser
   cd ~/ccminer && chmod +x ccminer verus
   cp ./verus ../../usr/bin/verus
   ```
+
 7. Create script auto start termux and running verus mining.
   ```cpp
   nano ~/.termux/boot/start-verus
@@ -49,6 +51,7 @@ copy link below to your browser
   ```
   ctrl+x y
   [Enter]
+  
 8. Start the Termux:Boot app once by clicking on its launcher icon.
 9. reboot your smartphone
 DONE!
