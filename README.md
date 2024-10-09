@@ -34,6 +34,7 @@ copy link below to your browser
   cd ~/ccminer && chmod +x ccminer verus
   cp ./verus ../../usr/bin/verus
   ```
+  * Note: edit your verus wallet on config.json
 
 7. Create script auto start termux and running verus mining.
   ```cpp
