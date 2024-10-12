@@ -18,11 +18,11 @@ Autorun ccminer (mining verus coin) on termux app!
 
 5. Download ccminer, config, verus bash
   ```cpp
-  mkdir ~/ccminer
+  mkdir ~/ccminer && cd ~/ccminer
   wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/ccminer
   wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/config.json
   wget https://raw.githubusercontent.com/Burhan7610/autorun-ccminer-termux/main/verus
-  cd ~/ccminer && chmod +x ccminer verus
+  chmod +x ccminer verus
   cp ./verus ../../usr/bin/verus
   ```
   * Note: edit your verus wallet on config.json
